@@ -9,7 +9,6 @@ html {
     width: 200px;
     height: 200px;
     border: 40px solid #F97316;
-    display: center;
 }
 
 .header {
@@ -17,7 +16,9 @@ html {
 }
 
 .arena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px dotted olive;
     height: 80vh;
-    display: center;
 }
